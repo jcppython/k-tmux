@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln -sf tmux.conf $HOME/.tmux.conf
+ln -sf $PWD/tmux.conf $HOME/.tmux.conf
 git clone https://github.com/jimeh/tmuxifier.git plugins/tmuxifier
 ln -sf $PWD/plugins/tmuxifier $HOME/.tmuxifier
 echo "安装tmuxifier"
